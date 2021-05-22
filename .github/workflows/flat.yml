@@ -19,4 +19,4 @@ jobs:
         uses: githubocto/flat@v2
         with:
           http_url: https://efile.fara.gov/api/v1/Registrants/csv/Active
-          downloaded_filename: data.json
+          downloaded_filename: data.csv
