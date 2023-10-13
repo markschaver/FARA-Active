@@ -5,9 +5,6 @@ on:
       - .github/workflows/flat.yml
   schedule:
     - cron: 16 8 * * *
-  env:
-   - name: SSL_CERT_DIR
-     value: "/etc/ssl/certs"
 jobs:
   scheduled:
     runs-on: ubuntu-latest
