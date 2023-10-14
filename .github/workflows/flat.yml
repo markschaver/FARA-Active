@@ -8,9 +8,6 @@ on:
 jobs:
   scheduled:
     runs-on: ubuntu-latest
-    env: 
-      name: SSL_CERT_DIR
-      value: "/etc/ssl/certs"
     steps:
       - name: Setup deno
         uses: denoland/setup-deno@main
